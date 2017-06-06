@@ -1,7 +1,21 @@
 apiVersion: v1
 entries:
   myapp:
-  - created: 2017-05-17T11:11:17.309870789+07:00
+  - created: 2017-06-06T15:08:35.438115509+03:00
+    description: A Helm chart template for Kubernetes charts repository
+    digest: a3551a7b1be017f32c15f567338b5f5c072581f18e9ea912024878283ac93494
+    engine: gotpl
+    home: https://k8s.community/
+    maintainers:
+    - email: grsanw@gmail.com
+      name: Andrey Gerasimov
+    name: myapp
+    sources:
+    - https://github.com/geri4/myapp
+    urls:
+    - https://geri4.github.io/mycharts/myapp-0.0.6.tgz
+    version: 0.0.6
+  - created: 2017-06-06T15:08:35.43776149+03:00
     description: A Helm chart template for Kubernetes charts repository
     digest: f18546f1b3708ed4b57c58662d0f220b2eead136b10a71019a345e9fbad0d7ba
     engine: gotpl
@@ -13,6 +27,6 @@ entries:
     sources:
     - https://github.com/k8s-community/myapp
     urls:
-    - https://k8s-community.github.io/mycharts/myapp-0.0.5.tgz
+    - https://geri4.github.io/mycharts/myapp-0.0.5.tgz
     version: 0.0.5
-generated: 2017-05-17T11:11:17.308000297+07:00
+generated: 2017-06-06T15:08:35.436708877+03:00
